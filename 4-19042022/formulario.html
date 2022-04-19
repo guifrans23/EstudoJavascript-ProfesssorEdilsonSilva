@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        form{
+            width: 40vw;
+            padding:20px;
+            margin:10px auto;
+            box-shadow: 0px 0px 10px silver;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;            
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"]{
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+
+    <form onsubmit="return false">
+        <input type="text" placeholder="Nome" id="nome">
+        <input type="email" placeholder="E-Mail" id="email">
+        <input type="text" placeholder="CPF" id="cpf">
+        <input type="tel" placeholder="Telefone" id="telefone">
+        <input type="submit" value="Enviar">
+    </form>
+    
+    <script src="js/funcoes.js"></script>
+    <script src="js/uso.js"></script>
+</body>
+</html>
