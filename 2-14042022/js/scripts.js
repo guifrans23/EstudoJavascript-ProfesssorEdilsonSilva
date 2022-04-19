@@ -44,5 +44,5 @@ function background(){
     }
 
     document.getElementById("tabela").innerHTML=saida;
-
 }
+
