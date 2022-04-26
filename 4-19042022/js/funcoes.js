@@ -29,6 +29,7 @@ function menor(numeros) {
 //verificar se um campo está vazio e alertar o usuário
 function verificarVazio(controle) {
   if (controle.value == "" || controle.value == null) {
+    controle.focus();
     alert("O campo " + controle.id + " não pode ser vazio");
   }
 }
